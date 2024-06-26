@@ -3,6 +3,10 @@ spring:
    application:
       name: myweb
 
+   devtools:
+      livereload:
+         enabled: true
+         
    thymeleaf:
       check-template-location: true
       mode: HTML
@@ -18,7 +22,7 @@ spring:
 
 # spring configuration
 server:
-   prot: 8080
+   prot: 8088
    servlet:
       context-path: /
       encoding:
